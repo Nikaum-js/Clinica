@@ -14,7 +14,7 @@ export function Pricing() {
         <div className="box">
           <div className="title">
             <i className="fa fa-paper-plane"></i>
-            <h2>Basic</h2>
+            <h2>Básico</h2>
           </div>
           <div className="price">
             <h4><sup>R$</sup>25</h4>
@@ -34,7 +34,7 @@ export function Pricing() {
         <div className="box">
           <div className="title">
             <i className="fa fa-paper-plane"></i>
-            <h2>Basic</h2>
+            <h2>Regular</h2>
           </div>
           <div className="price">
             <h4><sup>R$</sup>39</h4>
@@ -56,7 +56,7 @@ export function Pricing() {
         <div className="box">
           <div className="title">
             <i className="fa fa-paper-plane"></i>
-            <h2>Basic</h2>
+            <h2>Premium</h2>
           </div>
           <div className="price">
             <h4><sup>R$</sup>60</h4>
