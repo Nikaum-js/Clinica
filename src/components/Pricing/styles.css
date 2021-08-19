@@ -1,0 +1,141 @@
+.image h1 {
+  color: var(--text-title);
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.125rem;
+  margin-left: 5rem;
+}
+
+.image span {
+  color: var(--medium)
+}
+
+.image {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+.image img {
+  margin-right: 6rem;
+  width: 300px;
+  height: 300px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 90vh;
+}
+
+.container-pricing {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-pricing .box {
+  background: #151435;
+  position: relative;
+  width: 320px;
+  border-radius: 10px;
+  min-height: 520px;
+  margin: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.container-pricing .box:hover {
+  transform: translateY(-20px);
+}
+
+.container-pricing .box:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 200%;
+  background: rgba(0, 0, 0, 0.5);
+  transform: skewX(45deg) translateX(-870px);
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.container-pricing .box:hover::before {
+  transform: skewX(45deg) translateX(-870px);
+}
+
+.container-pricing .box .title .fa {
+  margin-top: 20px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.container-pricing .box .title h2 {
+  color: #fff;
+  margin: 20px 0 0;
+  padding: 0;
+}
+
+.container-pricing .box .price h4 {
+  font-size: 60px;
+  color: #fff;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.container-pricing .box .option ul {
+  margin: 20px 0;
+  padding: 0;
+}
+
+.container-pricing .box .option ul li {
+  list-style: none;
+  color: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.container-pricing .box .option ul li i {
+  margin-right: 10px;
+}
+
+.container-pricing .box .option ul li:last-child {
+  border-bottom: none;
+}
+
+.container-pricing .box a {
+  display: inline-block;
+  background: var(--green);
+  font-weight: bold;
+  padding: 10px 30px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.container-pricing .box a:hover {
+  background: #34327e;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+@media (max-width: 900px) {
+  section {
+    height: auto;
+  }
+}

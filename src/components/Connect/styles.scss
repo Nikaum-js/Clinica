@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  max-width: 1420px;
+  justify-content: space-between;
+  margin: 8rem 8rem;
+
+  .About-connect {
+    width: 50%;
+
+    h1 {
+      font-size: 2.3rem;
+      line-height: 2.900rem;
+      color: var(--text-title);
+      margin-top: 5rem;
+
+      span {
+        color: var(--pure);
+      }
+    }
+
+    p {
+      font-family: Roboto, sans-serif;
+      line-height: 1.700rem;
+      text-align: justify;
+      font-size: 1.2rem;
+      margin-top: 2rem;
+    }
+  }
+
+  .Imagem {
+    width: 500px;
+    height: 500px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
