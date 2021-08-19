@@ -5,6 +5,7 @@
   font-size: 3rem;
   line-height: 3.125rem;
   margin-left: 5rem;
+  margin-top: 4rem;
 }
 
 .image span {
@@ -45,7 +46,7 @@
   width: 320px;
   border-radius: 10px;
   min-height: 520px;
-  margin: 30px;
+  margin: 0 30px;
   padding: 20px;
   box-sizing: border-box;
   text-align: center;
