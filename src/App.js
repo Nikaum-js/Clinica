@@ -1,6 +1,7 @@
 import { AboutMobile } from "./components/AboutMobile";
 import { AboutUs } from "./components/AboutUs";
 import { Connect } from "./components/Connect";
+import { Footer } from "./components/Footer";
 import { Navbar } from "./components/Navbar";
 import { Presentation } from "./components/Presentation";
 import { Pricing } from "./components/Pricing";
@@ -14,6 +15,7 @@ function App() {
       <AboutMobile />
       <Pricing />
       <AboutUs />
+      <Footer />
     </>
   );
 }

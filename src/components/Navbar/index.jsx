@@ -8,11 +8,11 @@ export function Navbar() {
       <nav>
       <img src={Logo} alt="logo" />
         <ul>
-          <li id="Home"><a>Home</a></li>
-          <li id="Planos"><a>Planos</a></li>
-          <li id="Agendar">Agendar</li>
-          <li id="Exames">Exames</li>
-          <li id="SobreNós"><a>Sobre nós</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#agendar"></a>Agendar</li>
+          <li><a href="#exames"></a>Exames</li>
+          <li><a href="#sobrenos">Sobre nós</a></li>
         </ul>
       </nav>
 

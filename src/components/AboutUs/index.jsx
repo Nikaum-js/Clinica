@@ -6,7 +6,7 @@ export function AboutUs() {
   return (
     <div className="container-aboutUs">
       <div className="Imagem-aboutUs">
-        <img src={Team} alt="nosso time" />
+        <img id="sobrenos" src={Team} alt="nosso time" />
       </div>
       <div className="About-aboutUs">
         <h1> Sobre a nossa <span>equipe</span> </h1>

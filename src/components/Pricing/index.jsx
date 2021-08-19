@@ -7,7 +7,7 @@ export function Pricing() {
   <>
     <div className="image">
       <h1><span>Selecione</span> o melhor plano para você!</h1>
-      <img src={pricing} alt="preços" />
+      <img  id="planos" src={pricing} alt="preços" />
     </div>
     <div className="grid">
       <div className="container-pricing">
