@@ -1,5 +1,5 @@
 footer {
-  height: 80vh;
+  height: 60vh;
   background-color: white;
 }
 
@@ -39,12 +39,14 @@ footer .links span {
 }
 
 footer .line {
-  opacity: 0.6;
-  border-bottom: 2px solid rgb(114, 116, 124);
-  margin: 15rem 13rem;
-  width: 70%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+  border-bottom: 2px solid rgb(114, 116, 124);
+  margin: 14rem auto;
+  width: 70%;
+  background-color: white;
 }
 
 footer .links .newsletter input{
@@ -100,4 +102,75 @@ footer .links .newsletter .icon {
 
 .ending .social-icons svg {
   margin: 1rem;
+}
+
+@media (max-width: 1300px) {
+  footer .links .newsletter input {
+    position: relative;
+    position: relative;
+    left: 300px;
+    bottom: 100px;
+    height: 40px;
+    width: 200px;
+  } 
+  
+  footer .links .newsletter .icon {
+    position: relative;
+    left: 460px;
+    height: 40px;
+    bottom: 140px;
+    width: 50px;
+  }
+
+  footer .links .newsletter svg{
+    position: relative;
+    top: 2px;
+    left: 6px;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 985px) {
+  footer .links .newsletter input {
+    position: relative;
+    left: 30px;
+    bottom: -50px;
+    height: 40px;
+    width: 200px;
+  } 
+  
+  footer .links .newsletter .icon {
+    position: relative;
+    left: 190px;
+    height: 40px;
+    bottom: -10px;
+    width: 50px;
+  }
+}
+
+@media (max-width: 585px) {
+  footer .links .newsletter input {
+    position: relative;
+    left: -70px;
+    bottom: -40px;
+    height: 40px;
+    width: 200px;
+  } 
+  
+  footer .links .newsletter .icon {
+    position: relative;
+    left: 90px;
+    height: 40px;
+    bottom: 0px;
+    width: 50px;
+  }
+
+  footer .links{
+    position: relative;
+    left: -60px;
+  }
+
+  .ending {
+    margin: -13rem 1rem;
+  }
 }

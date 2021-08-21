@@ -33,10 +33,10 @@ export function Footer() {
       </div>
     <div className="ending">
       <div className="social-icons">       
-        <TiSocialTwitter fontSize="30px" />
-        <TiSocialYoutube fontSize="30px" />
-        <TiSocialLinkedin fontSize="30px" />
-        <TiSocialInstagram fontSize="30px" />
+        <TiSocialTwitter fontSize="24px" />
+        <TiSocialYoutube fontSize="24px" />
+        <TiSocialLinkedin fontSize="24px" />
+        <TiSocialInstagram fontSize="24px" />
       </div>
       <h2>© 2021 Clínica. Todos direitos reservados</h2>
     </div>

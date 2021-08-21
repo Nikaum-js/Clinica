@@ -37,3 +37,39 @@
     }
   }
 }
+
+@media (max-width: 980px) {
+  .container-aboutUs {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+
+
+    .Imagem-aboutUs {
+      margin-top: 5rem;
+      height: 400px;
+      width: 400px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .container-aboutUs {
+
+    .Imagem-aboutUs {
+      height: 300px;
+      width: 300px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .container-aboutUs {
+
+    .Imagem-aboutUs {
+      height: 250px;
+      width: 250px;
+    }
+  }
+}

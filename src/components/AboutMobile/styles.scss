@@ -37,3 +37,41 @@
     }
   }
 }
+
+@media (max-width: 980px) {
+  .container-mobile {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+
+
+    .Imagem-mobile {
+      margin: -4rem 0;
+      height: 400px;
+      width: 400px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .container-mobile {
+
+    .Imagem-mobile {
+      margin: -2rem 0;
+      height: 300px;
+      width: 300px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .container-mobile {
+
+    .Imagem-mobile {
+      margin: -2rem 0;
+      height: 250px;
+      width: 250px;
+    }
+  }
+}

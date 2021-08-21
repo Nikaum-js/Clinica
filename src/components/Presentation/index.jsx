@@ -10,6 +10,7 @@ export function Presentation() {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus pretium porttitor. Etiam at porta eros, vel faucibus urna.</p>
         <button>Agendar</button>
       </section>
+      
       <figure>
         <img src={Medicine} alt="imagem medico" />
       </figure>
