@@ -25,7 +25,6 @@ export function Navbar() {
         </ul>
       </nav>
 
-
       <nav id="desktop">
         <img src={Logo} alt="logo" />
         <ul>
