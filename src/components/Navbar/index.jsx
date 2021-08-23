@@ -1,9 +1,20 @@
 import Logo from '../../assets/Logo.svg'
 import { AiOutlineClose } from "react-icons/ai";
+import $ from 'jquery';
 
 import './styles.scss'
 
 export function Navbar() {
+
+  $('a[href^="#"]').on('click', function(e) {
+    e.preventDefault();
+    var id = $(this).attr('href'),
+        targetOffset = $(id).offset().top;
+        
+    $('html, body').animate({ 
+      scrollTop: targetOffset - 100
+    }, 500);
+  });
 
   return (
   <>
