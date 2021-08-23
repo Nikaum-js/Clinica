@@ -109,17 +109,19 @@ main {
     justify-content:center;
     align-items:center;
 
-
-    figure img {
+    figure { 
+      
+      img {
       margin: 0;
       justify-content: center;
       align-items: center;
-      margin-top: 20rem;
+      margin-top: 14rem;
       width: 400px;
       height: 300px;
     }
   }
 }
+  }
 
 @media (max-width: 600px) {
   main {
@@ -129,14 +131,14 @@ main {
     justify-content:center;
     align-items:center;
 
+    figure {
 
-    figure img {
-      margin: 0;
-      justify-content: center;
-      align-items: center;
-      margin-top: 22rem;
-      width: 400px;
-      height: 300px;
-    }
+      img {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        margin-top: 16rem;
+      }
   }
+}
 }

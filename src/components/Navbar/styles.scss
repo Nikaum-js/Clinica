@@ -27,6 +27,22 @@ nav {
     }
   }
 
+  button {
+    font-family: Roboto, sans-serif;
+    border: 0;
+    border-radius: 0.5rem;
+    color: #fff;
+    line-height: 1rem;
+    font-size: 1.25rem;
+    background: var(--pure);
+    padding: 0.1rem 3rem;
+    transition: filter 0.2s;
+  }
+
+  button:hover {
+    filter: brightness(0.9);
+  }
+
   img {
     width: 140px;
     height: 100px;
@@ -62,7 +78,6 @@ ul {
 
 li {
   padding: .5rem 1.5rem;
-
   font-weight: 500;
   font-family: Roboto, sans-serif;
   font-size: 1.2rem;
@@ -99,6 +114,11 @@ ul.collapsed {
   background-color: rgba(43, 43, 43, .9);
 }
 
+#x {
+  position: relative;
+  left: 230px;
+}
+
 #checkbox {
   display: none;
 }
@@ -111,12 +131,50 @@ ul.collapsed {
   display: none;
 }
 
-@media (max-width: 870px) {
+@media (max-width: 999px) {
   #mobile {
     display: flex;
+
+      button {
+        font-family: Roboto, sans-serif;
+        border: 0;
+        color: #fff;
+        height: 4rem;
+        font-size: 2rem;
+        padding: 1.4rem 3rem;
+        transition: filter 0.2s;
+        margin-top: 1.5rem;
+      }
+    
+      button:hover {
+        filter: brightness(0.9);
+      }
+
+    #lineGreen {
+      border: 0;
+    }
   }
+
   #desktop {
     display: none;
+  }
+
+  #x {
+    position: relative;
+    left: 340px;
+    transition: 0.2;
+
+    :hover {
+      cursor: pointer;
+      filter: brightness(0.8);
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  #x {
+    position: relative;
+    left: 220px;
   }
 }
 

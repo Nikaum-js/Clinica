@@ -7,6 +7,7 @@ import { Presentation } from "./components/Presentation";
 import { Pricing } from "./components/Pricing";
 
 function App() {
+
   return (
     <>
       <Navbar />
