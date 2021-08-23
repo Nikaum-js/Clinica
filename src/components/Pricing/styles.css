@@ -33,7 +33,7 @@
 }
 
 .container-pricing {
-  margin: 0 auto;
+  margin: 0 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,7 +145,7 @@
 @media (max-width: 1100px) {
   .grid {
     flex-direction: column;
-    margin: 40rem 0;
+    margin: 14rem 0;
   }
 
   .container-pricing {
@@ -169,5 +169,10 @@
 @media (max-width: 868px) {
   .image {
     margin-top: 4rem;
+  }
+
+  .grid {
+    flex-direction: column;
+    margin: 20rem 0;
   }
 }

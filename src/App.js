@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Presentation />
       <Connect />
-      <AboutMobile />
+      {/* <AboutMobile /> */}
       <Pricing />
       <AboutUs />
       <Footer />

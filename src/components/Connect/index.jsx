@@ -6,11 +6,11 @@ export function Connect() {
   return (
     <div className="container">
       <div className="Imagem">
-        <img src={connect} alt="conexão" />
+        <img id="teraph" src={connect} alt="conexão" />
       </div>
       <div className="About-connect">
-        <h1><span>Conecte-se</span> com os melhores médicos!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus elit in vulputate blandit. Quisque vel dictum urna. Duis imperdiet ultrices est, eget euismod elit ultrices at. Suspendisse venenatis ultrices metus, sed molestie felis dictum sed. Maecenas porttitor vulputate est sit amet cursus.</p>
+        <h1><span>Teraph</span></h1>
+        <p>Nossa plataforma foi desenvolvida com o intuito de melhorar sua experiência com seus pacientes/clientes. Oferecemos um ambiente para que você possa agendar suas consultas, organizar informações pessoais, evoluções e criar documentos profissionais. Tudo isso com muita segurança e criatividade. Seja um profissional de excelência com sua agenda e informações sobre as pessoas que você atende em um só lugar! </p>
       </div>
     </div>
   );

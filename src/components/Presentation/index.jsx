@@ -1,4 +1,4 @@
-import Medicine from '../../assets/Medicine.svg'
+import Mobile from '../../assets/Mobile.svg'
 
 import './styles.scss'
 
@@ -6,13 +6,13 @@ export function Presentation() {
   return (
     <main>
       <section>
-        <h1><span>Agende</span> agora a sua consulta ou exame médico!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus pretium porttitor. Etiam at porta eros, vel faucibus urna.</p>
-        <button>Agendar</button>
+        <h1><span>Sua Plataforma </span> de Atendimento e Gerenciamento de clientes. </h1>
+        <p>Você pode melhorar seus resultados na clínica com organização e segurança. Conheça nossos serviços e seja mais um parceiro. </p>
+        <button>Criar Cadastro</button>
       </section>
       
       <figure>
-        <img id="home" src={Medicine} alt="imagem medico" />
+        <img id="home" src={Mobile} alt="imagem medico" />
       </figure>
     </main>
   );

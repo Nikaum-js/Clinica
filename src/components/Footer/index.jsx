@@ -16,12 +16,12 @@ export function Footer() {
       <div className="links">
         <h2>Links</h2>
         <span><a href="#home">Home</a></span>
-        <span>Aplicativo</span>
+        <span><a>Aplicativo</a></span>
         <br/>
         <br/>
         <br/>
-        <span>Exames</span>
-        <span>Agendar</span>
+        <span><a>Login</a></span>
+        <span><a>Cadastro</a></span>
         <div className="newsletter">
         <input placeholder="E-mail" type="email" />
         <div className="icon">

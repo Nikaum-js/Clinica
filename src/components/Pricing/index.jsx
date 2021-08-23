@@ -17,36 +17,16 @@ export function Pricing() {
             <h2>Básico</h2>
           </div>
           <div className="price">
-            <h4><sup>R$</sup>25</h4>
+            <h4><sup>R$</sup>69</h4>
           </div>
           <div className="option">
             <ul>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
-            </ul>
-          </div>
-            <a href="#">Assine agora!</a>
-        </div>
-      </div>
-      <div className="container-pricing">
-        <div className="box">
-          <div className="title">
-            <i className="fa fa-paper-plane"></i>
-            <h2>Regular</h2>
-          </div>
-          <div className="price">
-            <h4><sup>R$</sup>39</h4>
-          </div>
-          <div className="option">
-            <ul>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
+            <li><i className="fa fa-check"></i>Documentos Psicológicos</li>
+            <li><i className="fa fa-check"></i>Agendamentos</li>
+              <li><i className="fa fa-check"></i>1 profissional</li>
+              <li><i className="fa fa-check"></i>Notificações </li>
+              <li><i className="fa fa-check"></i>Evoluções</li>
+              <li><i className="fa fa-check"></i>Anamneses</li>
             </ul>
           </div>
             <a href="#">Assine agora!</a>
@@ -59,23 +39,23 @@ export function Pricing() {
             <h2>Premium</h2>
           </div>
           <div className="price">
-            <h4><sup>R$</sup>60</h4>
+            <h4><sup>R$</sup>130</h4>
           </div>
           <div className="option">
             <ul>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
-              <li><i className="fa fa-check"></i>Alguma coisa interessante</li>
+              <li><i className="fa fa-check"></i>Clínica com até 3 funcionários </li>
+              <li><i className="fa fa-check"></i>Supervisão de atendimentos</li> 
+              <li><i className="fa fa-check"></i>Cadastro de profissionais</li> 
+              <li><i className="fa fa-check"></i>Documentos Psicológicos </li>         
+              <li><i className="fa fa-check"></i>Acesso secretaria</li> 
+              <li><i className="fa fa-check"></i>Agendamentos</li> 
+              <li><i className="fa fa-check"></i>Notificações</li>
+              <li><i className="fa fa-check"></i>Anamneses</li>
             </ul>
           </div>
             <a href="#">Assine agora!</a>
         </div>
       </div>
-
     </div>
   </>
   );
