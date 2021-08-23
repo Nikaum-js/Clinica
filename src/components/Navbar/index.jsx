@@ -6,15 +6,21 @@ import './styles.scss'
 
 export function Navbar() {
 
-  $('a[href^="#"]').on('click', function(e) {
-    e.preventDefault();
-    var id = $(this).attr('href'),
+    $('a[href^="#"]').on('click', function(e) {
+      e.preventDefault();
+      var id = $(this).attr('href'),
         targetOffset = $(id).offset().top;
-        
-    $('html, body').animate({ 
-      scrollTop: targetOffset - 100
-    }, 500);
-  });
+          
+      $('html, body').animate({ 
+        scrollTop: targetOffset - 100
+      }, 500);
+    });
+
+    // $(document).ready(function(){
+    //   $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+    //     $(this).toggleClass('open');
+    //   });
+    // });
 
   return (
   <>
@@ -36,8 +42,8 @@ export function Navbar() {
         </label>
           <li><a id="lineGreen" href="#home">Home</a></li>
           <li><a href="#planos">Planos</a></li>
-          <li><a href="#agendar"></a>Agendar</li>
-          <li><a href="#exames"></a>Exames</li>
+          <li><a href="#agendar">Agendar</a></li>
+          <li><a href="#exames">Exames</a></li>
           <li><a href="#sobrenos">Sobre nós</a></li>
           <button>Login</button>
         </ul>
@@ -49,8 +55,8 @@ export function Navbar() {
         <ul>
           <li><a id="lineGreen" href="#home">Home</a></li>
           <li><a href="#planos">Planos</a></li>
-          <li><a href="#agendar"></a>Agendar</li>
-          <li><a href="#exames"></a>Exames</li>
+          <li><a href="#agendar">Agendar</a></li>
+          <li><a href="#exames">Exames</a></li>
           <li><a href="#sobrenos">Sobre nós</a></li>
         <button>Login</button>
         </ul> 

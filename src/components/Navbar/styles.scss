@@ -3,19 +3,21 @@ nav {
   justify-content: space-between;
   margin: 1rem 3rem;
 
+
   ul {
     list-style: none;
     display: flex;
-    padding: 2rem;
 
     li {
-      padding: .5rem 1.5rem;
-
+      cursor: auto;
       font-weight: 500;
       font-family: Roboto, sans-serif;
       font-size: 1.3rem;
-      cursor: pointer;
       transition: 0.2s;
+
+      a {
+        cursor: pointer;
+      }
     }
 
     li:hover {
@@ -50,8 +52,6 @@ nav {
 }
 
 ul {
-  list-style: none;
-  display: flex;
   padding: 2rem;
 }
 
