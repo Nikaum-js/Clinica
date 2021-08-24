@@ -210,3 +210,25 @@ footer .links .newsletter .icon {
     margin: -11rem 1rem;
   }
 }
+
+@media (max-width: 319px) {
+
+  footer .links{
+    display: none;
+  }
+
+  .ending .social-icons svg {
+    margin: .6rem;
+    font-size: 20px;
+  }
+
+  footer .line {
+    margin: 16rem auto;
+  }
+
+  footer img {
+    margin: 6rem;
+    width: 50px;
+    height: 50px;
+  }
+}
