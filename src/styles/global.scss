@@ -33,6 +33,12 @@
 }
 }
 
+@media (max-width: 520px) {
+  html {
+    font-size: 57.5%;
+}
+}
+
 body { 
   color: var(--text-body);
   background: var(--background);

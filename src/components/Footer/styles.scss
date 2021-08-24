@@ -1,4 +1,5 @@
 footer {
+  width: 100vw;
   height: 60vh;
   background-color: white;
 }
@@ -159,19 +160,11 @@ footer .links .newsletter .icon {
 
 @media (max-width: 585px) {
   footer .links .newsletter input {
-    position: relative;
-    left: -70px;
-    bottom: -40px;
-    height: 40px;
-    width: 200px;
+    display: none;
   } 
   
   footer .links .newsletter .icon {
-    position: relative;
-    left: 90px;
-    height: 40px;
-    bottom: 0px;
-    width: 50px;
+    display: none;
   }
 
   footer .links{
@@ -179,7 +172,41 @@ footer .links .newsletter .icon {
     left: -60px;
   }
 
+  footer .line {
+    margin: 16rem auto;
+  }
+
   .ending {
-    margin: -13rem 1rem;
+    margin: -12rem 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  footer .links .newsletter {
+    display: none;
+  } 
+
+  footer .links{
+    position: relative;
+    left: -80px;
+  }
+
+  .ending .social-icons svg {
+    margin: .6rem;
+    font-size: 20px;
+  }
+
+  footer .line {
+    margin: 16rem auto;
+  }
+
+  footer img {
+    margin: 6rem;
+    width: 100px;
+    height: 100px;
+  }
+
+  .ending {
+    margin: -11rem 1rem;
   }
 }

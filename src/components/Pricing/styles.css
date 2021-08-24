@@ -176,3 +176,14 @@
     margin: 20rem 0;
   }
 }
+
+@media (max-width: 508px) {
+  .image {
+    margin-top: 4rem;
+  }
+
+  .grid {
+    flex-direction: column;
+    margin: 35rem 0;
+  }
+}

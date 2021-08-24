@@ -123,14 +123,16 @@ ul.collapsed {
   display: none;
 }
 
-
-
 ::-webkit-scrollbar {
   display: none;
 }
 
 #mobile {
   display: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 999px) {
@@ -179,5 +181,19 @@ ul.collapsed {
     left: 220px;
   }
 }
+
+@media (max-width: 500px) {
+  #x {
+    position: relative;
+    left: 170px;
+  }
+  
+  nav img {
+    margin-top: -5rem;
+    width: 120px;
+    height: 180px;
+  }
+}
+
 
 
