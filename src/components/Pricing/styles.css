@@ -153,7 +153,7 @@
   }
 
   .container-pricing .box {
-    width: 320px;
+    width: 300px;
     min-height: 480px;
     margin: 0 10px;
   }
@@ -185,5 +185,17 @@
   .grid {
     flex-direction: column;
     margin: 28rem 0;
+  }
+}
+
+@media (max-width: 508px) {
+  .image img{
+    width: 130px;
+    height: 130px;
+  }
+
+  .grid {
+    flex-direction: column;
+    margin: 33rem 0;
   }
 }

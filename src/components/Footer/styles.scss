@@ -76,7 +76,6 @@ footer .links .newsletter input{
   padding-left: 14px;
 }
 
-
 footer .links .newsletter svg{
   position: relative;
   top: 3px;
@@ -211,24 +210,39 @@ footer .links .newsletter .icon {
   }
 }
 
-@media (max-width: 319px) {
-
+@media (max-width: 320px) {
   footer .links{
     display: none;
   }
 
   .ending .social-icons svg {
     margin: .6rem;
-    font-size: 20px;
+    font-size: 10px;
   }
 
   footer .line {
-    margin: 16rem auto;
+    margin: 12rem auto;
+  }
+
+  footer {
+    width: 100vw;
+    height: 50vh;
+    background-color: white;
   }
 
   footer img {
-    margin: 6rem;
+    margin: 8rem 10rem;
     width: 50px;
     height: 50px;
   }
+
+  .ending h2 {
+    font-family: Roboto, sans-serif;
+    line-height: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: .8rem;
+    font-weight: 400;
+  } 
 }
