@@ -1,6 +1,6 @@
 footer {
   width: 100vw;
-  height: 60vh;
+  height: 80vh;
   background-color: white;
 }
 
@@ -147,6 +147,12 @@ footer .links .newsletter .icon {
     height: 40px;
     width: 200px;
   } 
+
+  footer {
+    width: 100vw;
+    height: 60vh;
+    background-color: white;
+  }
   
   footer .links .newsletter .icon {
     position: relative;
@@ -169,6 +175,12 @@ footer .links .newsletter .icon {
   footer .links{
     position: relative;
     left: -60px;
+  }
+
+  footer {
+    width: 100vw;
+    height: 50vh;
+    background-color: white;
   }
 
   footer .line {
