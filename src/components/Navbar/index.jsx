@@ -1,27 +1,10 @@
 import Logo from '../../assets/Logo.svg'
 import { AiOutlineClose } from "react-icons/ai";
-import $ from 'jquery';
+import { Link } from 'react-router-dom'
 
 import './styles.scss'
 
 export function Navbar() {
-
-    $('ul a[href^="#"]').on('click', function(e) {
-      e.preventDefault();
-      var id = $(this).attr('href'),
-        targetOffset = $(id).offset().top;
-          
-      $('html, body').animate({ 
-        scrollTop: targetOffset - 100
-      }, 500);
-    });
-
-    // $(document).ready(function(){
-    //   $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
-    //     $(this).toggleClass('open');
-    //   });
-    // });  
-
   return (
   <>
       <nav id="mobile">
@@ -56,7 +39,10 @@ export function Navbar() {
           <li><a href="#planos">Planos</a></li>
           <li><a href="#teraph">Teraph</a></li>
           <li><a href="#sobrenos">Sobre nós</a></li>
-        <button>Login</button>
+
+          <Link to="/login">
+            <button>Login</button>
+          </Link>
         </ul> 
       </nav>
 </>

@@ -1,22 +1,18 @@
-import { AboutMobile } from "./components/AboutMobile";
-import { AboutUs } from "./components/AboutUs";
-import { Connect } from "./components/Connect";
-import { Footer } from "./components/Footer";
-import { Navbar } from "./components/Navbar";
-import { Presentation } from "./components/Presentation";
-import { Pricing } from "./components/Pricing";
+import { Route, BrowserRouter, Switch } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Login from "./pages/Login";
 
 function App() {
 
   return (
     <>
-      <Navbar />
-      <Presentation />
-      <Connect />
-      {/* <AboutMobile /> */}
-      <Pricing />
-      <AboutUs />
-      <Footer />
+       <BrowserRouter>
+          <Switch>
+            <Route component = { Home }  path="/" exact />
+            <Route component = { Login }  path="/Login" />
+          </Switch>
+       </BrowserRouter>
     </>
   );
 }
